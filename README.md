@@ -9,8 +9,6 @@ Create Your Style leverages the IDM-VITON API to enable users to upload an image
 ## Features
 
 - *Virtual Try-On*: Upload an image of a person and select a garment to see how it looks on the person.
-- *Automatic Masking*: Option to use auto-generated masks for seamless integration of garments onto the person image.
-- *Dynamic Resizing*: Auto crop and resizing functionality ensures that the garment fits the person image appropriately.
 - *Post Outfits*: Users can post outfits created through the virtual try-on to share with others.
 - *View and Rate*: View outfits posted by others and rate them with likes or dislikes.
 
@@ -28,20 +26,20 @@ To run the application locally:
 
 1. Clone the repository:
    bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/thrishalaa/create-your-style.git
+   cd create-your-style
    
     - Install dependencies:
-     
+     ```
      pip install -r requirements.txt
+     ```
      
 2. **Running the Application**
    - Run the Python script:
-     
-     python your_script_name.py
      ```
-   - Open your web browser and navigate to http://localhost:7860 to access the application interface.
-
+     python app.py
+     ```
+   
 3. *Using the Application*
    - Upload a person's image and select a garment image.
    - Optionally, describe the garment and choose auto-mask and auto-crop options.
